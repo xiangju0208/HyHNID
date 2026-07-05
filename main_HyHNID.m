@@ -3,7 +3,7 @@ methodname ='HyHNID'
 netname    ='PPI'  
 DisSetName ='OMIM' 
 fdate_start = datestr(now,'yyyy.mmm.dd-HH.MM.SS');  
-fdataset        = ['data',filesep,'DataSet.PPI.OMIM.DSimHPO.mat']
+fdataset        = ['data',filesep,'dmDataSet.PPI.OMIM.DSimHPO.mat']
 load(fdataset) 
 Matrix_gene_dis00      =  AdjGfD ; 
 n_disgenes_eachdisease = sum(Matrix_gene_dis00,1)'; 
