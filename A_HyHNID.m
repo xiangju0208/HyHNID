@@ -6,8 +6,7 @@ function [ L_hyper_set, TableScores, TableScores_D ] = ...
     % AdjGfD: : a matrix that record associatins from Diseases (D) to Genes (G) GfD
     % AdjDfD: matrix that records  associatins from Diseases (D) to Disease (G)  
     % P0_G: initial in Gene network
-    % P0_D: initial in Disease network  
-    % NormalizationType = 'LaplacianNormalizationMeanDegree'   
+    % P0_D: initial in Disease network    
     % By Ju Xiang 
     % Email: xiang.ju@foxmail.com, xiangju@csu.edu.cn  
     %  
